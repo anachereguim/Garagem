@@ -1,0 +1,16 @@
+<p>Selecione o número de meses quem que deseja pagar:</p>
+    <label>
+      <input type="radio" name="finan" value="trinta" (click)="setradio('trinta')" [checked]='true' ngModel>
+      36
+    </label>
+    <label>
+    <input type="radio" name="finan" value="cinquenta" (click)="setradio('cinquenta')" ngModel>
+    50
+  </label>
+  <div *ngIf="isSelected('trinta')" >
+    <p>%3,6 de juros = 36x R$6.3331,00</p>
+  </div>
+  <div *ngIf="isSelected('cinquenta')" >
+    <p>%5 de juros = 50x R$4.620,00</p>
+  </div>
+

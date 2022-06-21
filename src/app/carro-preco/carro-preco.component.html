@@ -1,0 +1,30 @@
+<br>
+<mat-card class="mat-elevation-z4">
+<mat-card-title><b>Opções de financiamento:</b></mat-card-title>
+<br>
+<div class="radio">
+  <mat-card-subtitle><label>
+     <input type="radio" name="finan" value="Cons" (click)="setradio('Cons')" [checked]='true' ngModel>
+      Consórcio
+  </label></mat-card-subtitle>
+</div>
+<div class="radio">
+  <mat-card-subtitle><label>
+      <input type="radio" name="finan" value="Leas" (click)="setradio('Leas')" ngModel>
+      Leasing
+  </label></mat-card-subtitle>
+</div>
+<div>
+  <mat-card-subtitle><div *ngIf="isSelected('Cons')" >
+  <app-financiamento></app-financiamento>
+</div></mat-card-subtitle>
+<div>
+  <mat-card-subtitle><div *ngIf="isSelected('Leas')">
+  <app-financiamento2></app-financiamento2>
+  </div></mat-card-subtitle>
+</div>
+<hr>
+<mat-card-actions>
+<button mat-mini-fab color="primary" aria-label="Voltar" (click)="goBack()"><mat-icon>arrow_back</mat-icon></button>
+</mat-card-actions>
+

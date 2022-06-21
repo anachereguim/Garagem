@@ -1,0 +1,73 @@
+{
+  "carros": [
+    {
+      "id": 2,
+      "nome": "Fiesta",
+      "cor": "Branco",
+      "preço": "R$70.000"
+    },
+    {
+      "id": 3,
+      "nome": "Ka",
+      "cor": "Prata",
+      "preço": "R$90.000"
+    },
+    {
+      "id": 4,
+      "nome": "Fusion",
+      "cor": "Branco",
+      "preço": "R$130.000"
+    },
+    {
+      "id": 5,
+      "nome": "Mustang",
+      "cor": "Laranja",
+      "preço": "R$250.000"
+    },
+    {
+      "nome": "Maverick",
+      "cor": "Vermelho",
+      "preço": "R$220.000",
+      "id": 6
+    },
+    {
+      "nome": "Territory",
+      "cor": "Prata",
+      "preço": "R$210.000",
+      "id": 7
+    },
+    {
+      "nome": "Ranger",
+      "cor": "Preto",
+      "preço": "R$240.000",
+      "id": 8
+    },
+    {
+      "nome": "Bronco Sport",
+      "cor": "Verde",
+      "preço": "R$200.000",
+      "id": 9
+    },
+    {
+      "nome": "Transit",
+      "cor": "Branco",
+      "preço": "R$180.000",
+      "id": 10
+    },
+    {
+      "nome": "EcoSport",
+      "cor": "Verde",
+      "id": 11
+    },
+    {
+      "nome": "Fiesta",
+      "cor": "Rosa",
+      "id": 12
+    },
+    {
+      "nome": "Galaxie",
+      "cor": "Preto",
+      "id": 13
+    }
+  ]
+}

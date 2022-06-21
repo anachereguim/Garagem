@@ -1,0 +1,23 @@
+.mat-card{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mat-card-title{
+  text-align: center;
+}
+.mat-elevation-z4{
+  width: 800px;
+  margin: auto;
+}
+.mat-card-actions{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.opt{
+  display: flex;
+  padding: 3em;
+  flex-direction: row;
+  justify-content:center;
+  height: 100%;
+	align-items: center;
+}
